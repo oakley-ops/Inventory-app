@@ -1,0 +1,70 @@
+/* General Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Header Styling */
+thead {
+    background-color: #ff9900; /* Modern blue */
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+
+thead th {
+    padding: 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+/* Table Row Styling */
+tbody tr {
+    background-color: #f8f9fa; /* Light grey for alternating rows */
+    transition: background-color 0.3s ease;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #e9ecef; /* Slightly darker grey */
+}
+
+tbody tr:hover {
+    background-color: #d6e9f5; /* Light blue on hover */
+}
+
+/* Cell Styling */
+td, th {
+    padding: 12px 15px;
+    border-bottom: 1px solid #dee2e6;
+}
+
+/* Last Row Bottom Border Removal */
+tbody tr:last-of-type td {
+    border-bottom: none;
+}
+
+/* Action Buttons or Icons */
+.action-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.action-buttons button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.action-buttons button:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,21 @@
+.category-grid {
+    flex: 1;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.grid-item {
+    background-color: #e9ecef;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+}

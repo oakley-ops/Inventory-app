@@ -1,0 +1,16 @@
+@import '@fortawesome/fontawesome-free/css/all.css';
+
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+h1 {
+  color: #002855;
+}
+
+p {
+  color: #555;
+}
+
